@@ -17,20 +17,6 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "settings": {
-    "import/resolver": {
-      "alias": {
-        "map": [
-          ["@components", "./src/components"],
-          ["@assets", "./src/assets"],
-          ["@helper", "./src/helper"],
-          ["@hooks", "./src/hooks"],
-          ["@styles", "./src/styles"]
-        ],
-        "extensions": [".js", ".jsx", ".css", ".scss"]
-      }
-    }
-  },
   "rules": {
     "no-restricted-imports": [
       1,
